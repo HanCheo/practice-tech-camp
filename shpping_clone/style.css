@@ -1,5 +1,32 @@
+@font-face {
+  font-family: AppleSDGothic;
+  src: url(./fonts/NaumGothicL.ttf) format('ttf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: AppleSDGothic;
+  src: url(./fonts/NaumGothicM.ttf) format('ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: AppleSDGothic;
+  src: url(./fonts/NaumGothicH.ttf) format('ttf');
+  font-weight: 600;
+}
+@font-face {
+  font-family: AppleSDGothic;
+  src: url(./fonts/NaumGothicB.ttf) format('ttf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: AppleSDGothic;
+  src: url(./fonts/NaumGothicEB.ttf) format('ttf');
+  font-weight: 800;
+}
+
 html,
 body {
+  font-family: AppleSDGothic;
   overflow: visible;
   position: relative;
   margin: 0;
