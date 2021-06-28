@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>마켓배민 :: 내일의 장보기, 마켓배민</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer type="module" src="./index.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="popup">
+        지금 가입하고 인기상품
+        <b>100원</b>
+        에 받아가세요!&nbsp;&nbsp;&nbsp;&nbsp;〉
+        <a href="#" class="close">
+          <img src="/images/ico_close_fff_42x42.webp" alt="close" />
+        </a>
+      </div>
+      <div class="top w-1050">
+        <a href="#" class="deliver">
+          <div class="list list1">
+            수도권・충청&nbsp;
+            <span>샛별배송 〉</span>
+          </div>
+          <div class="list list2">
+            그 외 지역&nbsp;
+            <span>택배배송 〉</span>
+          </div>
+        </a>
+        <img class="logo" src="/images/logo.jpg" alt="logo" />
+        <ul class="members">
+          <li><a href="#">회원가입</a></li>
+          <li><a href="#">로그인</a></li>
+          <li><a href="#">고객센터</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="sticky">
+      <nav class="goods w-1050">
+        <ul>
+          <li>
+            <a href="#">
+              <svg viewBox="0 0 80 80" width="25" height="16">
+                <rect y="10" width="80" height="7"></rect>
+                <rect y="37.5" width="80" height="7"></rect>
+                <rect y="65" width="80" height="7"></rect>
+              </svg>
+              &nbsp;&nbsp;전체 카테고리
+            </a>
+          </li>
+          <li><a href="#">신상품</a></li>
+          <li><a href="#">베스트</a></li>
+          <li><a href="#">알뜰쇼핑</a></li>
+          <li><a href="#">특가/혜택</a></li>
+        </ul>
+        <div class="nav-search">
+          <div class="search-input-wrap">
+            <input type="text" class="search-input" placeholder="건강 기원 새해맞이 보양식 레시피" />
+          </div>
+          <div>
+            <img src="/images/ico_delivery_setting.svg" alt="delivery" />
+          </div>
+          <div>
+            <img src="/images/ico_cart.svg" alt="ico_cart" />
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="contents">
+      <section class="slider">
+        <div class="slider-img img1">
+          <img src="/images/banner/slide0.jpeg" alt="slide" />
+        </div>
+        <div class="slider-img img2">
+          <img src="/images/banner/slide1.jpeg" alt="slide" />
+        </div>
+        <div class="slider-img img3">
+          <img src="/images/banner/slide2.jpeg" alt="slide" />
+        </div>
+        <div class="slider-img img4">
+          <img src="/images/banner/slide3.jpeg" alt="slide" />
+        </div>
+      </section>
+      <section>
+        <div class="section-title">이 상품 어때요?</div>
+        <div id="today_recommendation" class="item-grid items-4 w-1050"></div>
+      </section>
+      <section>
+        <div class="section-title right-arrow">특가/혜택</div>
+        <div id="event" class="item-grid items-3 w-1050"></div>
+      </section>
+      <section>
+        <div class="section-title right-arrow">놓치면 후회할 가격</div>
+        <div id="theme_goods_20" class="item-grid items-4 w-1050"></div>
+        <div class="banner">
+          <img src="./images/banner/1.webp" alt="배너" />
+        </div>
+        <div class="section-title">MD의 추천</div>
+        <div class="category w-1050">
+          <ul class="list_category">
+            <li><a href="#" class="menu on">채소</a></li>
+            <li><a href="#" class="menu">과일·견과·쌀</a></li>
+            <li><a href="#" class="menu">수산·해산·건어물</a></li>
+            <li><a href="#" class="menu">정육·계란</a></li>
+            <li><a href="#" class="menu">국·반찬·메인요리</a></li>
+            <li><a href="#" class="menu">샐러드·간편식</a></li>
+            <li><a href="#" class="menu">면·양념·오일</a></li>
+            <li>
+              <a href="#" class="menu">생수·음료·우유·커피</a>
+            </li>
+            <li><a href="#" class="menu">간식·과자·떡</a></li>
+            <li><a href="#" class="menu">베이커리·치즈·델리</a></li>
+            <li><a href="#" class="menu">건강식품</a></li>
+            <li><a href="#" class="menu">생활용품·리빙</a></li>
+            <li><a href="#" class="menu">스킨케어·메이크업</a></li>
+            <li><a href="#" class="menu">헤어·바디·구강</a></li>
+            <li><a href="#" class="menu">주방용품</a></li>
+            <li><a href="#" class="menu">가전제품</a></li>
+            <li><a href="#" class="menu">베이비·키즈</a></li>
+            <li><a href="#" class="menu">반려동물</a></li>
+          </ul>
+        </div>
+        <div id="md_choice" class="item-grid items-4 w-1050"></div>
+        <div id="selected-item" class="show-category-items w-1050">
+          <a href="#">
+            <span class="">채소 전체보기 〉</span>
+          </a>
+        </div>
+        <div class="banner typing">
+          <strong class="typing-title">장바구니 자랑하면 5천원의 행운이 매일!</strong>
+          <div class="typing-subtitle">매일 20분께 드리는 적립금 혜택!</div>
+        </div>
+        <div class="section-title right-arrow">지금 가장 핫한 상품</div>
+        <div id="theme_goods_21" class="item-grid items-4 w-1050"></div>
+      </section>
+      <section>
+        <div class="section-title right-arrow">필요한 것만 딱! 주방용품 특가</div>
+        <div id="theme_goods_9" class="item-grid items-4 w-1050"></div>
+        <div class="section-title">
+          <div class="right-arrow">365일 최저가 도전</div>
+          <div class="subtitle">최저가 도전, 365일 언제나 알뜰하게</div>
+        </div>
+        <div id="theme_goods_11" class="item-grid items-4 w-1050"></div>
+      </section>
+      <section>
+        <div class="section-title">
+          <div class="right-arrow">시원한 여름</div>
+          <div class="subtitle">여름의 열기를 식혀줄 별미부터 가전까지</div>
+        </div>
+        <div id="theme_goods_12" class="item-grid items-4 w-1050"></div>
+        <div class="section-title right-arrow">컬리의 레시피</div>
+
+        <div id="recipe" class="item-grid items-3 w-1050"></div>
+        <div class="section-title">인스타그램 고객 후기</div>
+        <div id="instargram" class="item-grid items-6 w-1050"></div>
+        <div class="subtitle">
+          더 많은 고객 후기가 궁금하다면?
+          <div class="instar">@market_graaaaaaaam</div>
+        </div>
+        <div class="banner">
+          <img src="./images/banner/2.webp" alt="배너" />
+        </div>
+      </section>
+    </div>
+    <footer class="w-1050">
+      <div class="left">
+        <div class="line">고객행복센터</div>
+        <div class="line">
+          <div class="call">1644-1107</div>
+          <div class="contact">
+            <div>365고객센터</div>
+            <div>오전 7시 - 오후 7시</div>
+          </div>
+        </div>
+        <div class="line">
+          <div class="box">카카오톡 문의</div>
+          <div class="contact">
+            <div>365고객센터</div>
+            <div>오전 7시 - 오후 7시</div>
+          </div>
+        </div>
+        <div class="line">
+          <div class="box">1:1문의</div>
+          <div class="contact">
+            <div>24시간 접수 가능</div>
+            <div>고객센터 운영시간에 순차적으로 답변해드리겠습니다.</div>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <ul class="about">
+          <li>소개</li>
+          <li>소개영상</li>
+          <li>인재채용</li>
+          <li>이용약관</li>
+          <li>개인정보처리방침</li>
+          <li>이용안내</li>
+        </ul>
+        <div>
+          <pre>
+법인명 (상호) : 주식회사 | 사업자등록번호 : 000-00-00000 <span>사업자정보 확인</span>
+통신판매업 : 제 0000-XXXX-00000 호 | 개인정보보호책임자 : 이원준
+주소 : XX특별시 XX구 XX로 000-00 | 대표이사 : XXX
+입점문의 : <span>입점문의하기</span> | 제휴문의 : <span>xxxx@xxx.com</span>
+채용문의 : <span>xxxx@xxx.com</span>
+팩스 : xxx-xxxx-xxxx | 이메일 : <span>help@xxx.com</span>
+
+© xxxx CORP. ALL RIGHTS RESERVED
+          </pre>
+          <ul class="list_sns">
+            <li>
+              <a href="#">
+                <img src="/images/ico_instagram.webp" alt="인스타그램 바로가기" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="/images/ico_fb.webp" alt="페이스북 바로가기" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="/images/ico_blog.webp" alt="네이버블로그 바로가기" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="/images/ico_naverpost.webp" alt="유튜브 바로가기" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="/images/ico_youtube.webp" alt="유튜브 바로가기" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer_link">
+        <p>
+          [인증범위]마켓배민 쇼핑몰 서비스 개발 ・ 운영
+          <br />
+          [유효기간]2019.04.01 ~ 2022.03.31
+        </p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <p>
+          개인정보보호 우수 웹사이트
+          <br />
+          개인정보처리시스템 인증 (ePRIVACY PLUS)
+        </p>
+      </div>
+      <div class="footer_link">
+        <p>
+          고객님의 안전거래를 위해 현금 등으로 결제 시 저희 쇼핑몰에서 가입한
+          <br />
+          토스 페이먼츠 구매안전(에스크로) 서비스를 이용하실 수 있습니다.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
