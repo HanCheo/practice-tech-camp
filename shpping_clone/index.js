@@ -36,7 +36,7 @@ class GridType4 {
       let _price = comma(price) + '원';
 
       return `<li>
-      <div class="item-img-wrapper"><img src="/images/items/${node.image}" alt="상품이미지" /> </div>
+      <div class="item-img-wrapper"><img src="./images/items/${node.image}" alt="상품이미지" /> </div>
       <div class="item-info">
         <div class="item-name">${node.name}</div>
         ${
@@ -94,7 +94,7 @@ class GridType3 {
   render() {
     this.$target.innerHTML = this.state.map((node, i) => {
       return `<li class=${this.type}>
-      <div class="item-img-wrapper"><img src="/images/items/${this.type}/${i}.jpeg" alt="상품이미지" /> </div>
+      <div class="item-img-wrapper"><img src="./images/items/${this.type}/${i}.jpeg" alt="상품이미지" /> </div>
       <div class="item-info">
         <div class="item-title">${node.title}</div>
         ${!!node.subtitle ? '<div class="item-subtitle">' + node.subtitle + '</div>' : ''}
@@ -134,7 +134,7 @@ class GridType6 {
   render() {
     this.$target.innerHTML = this.state.map((node, i) => {
       return `<li class=${this.type}>
-      <a href="#" class="item-img-wrapper"><img src="/images/items/${node.image}" alt="상품이미지" /></a>
+      <a href="#" class="item-img-wrapper"><img src="./images/items/${node.image}" alt="상품이미지" /></a>
       </li>`;
     }).join("");
   }
