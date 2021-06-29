@@ -261,22 +261,22 @@ nav.goods .nav-search .search-input {
     transform: translateX(0);
   }
   25% {
-    transform: translateX(-125%);
+    transform: translateX(-100vw);
   }
   40% {
-    transform: translateX(-125%);
+    transform: translateX(-100vw);
   }
   50% {
-    transform: translateX(-240%);
+    transform: translateX(-200vw);
   }
   65% {
-    transform: translateX(-240%);
+    transform: translateX(-200vw);
   }
   75% {
-    transform: translateX(-350%);
+    transform: translateX(-300vw);
   }
   90% {
-    transform: translateX(-350%);
+    transform: translateX(-300vw);
   }
   100% {
     transform: translate(0);
@@ -295,12 +295,13 @@ nav.goods .nav-search .search-input {
   position: relative;
   text-align: center;
   font-size: 40px;
-  width: 100%;
+  width: 100vw;
   height: 370px;
 }
 
-.contents .slider .slider-img {
+.contents .slider .slider-img img {
   width: 100%;
+  height: 370px;
 }
 
 .contents section:nth-child(2n + 1) {
