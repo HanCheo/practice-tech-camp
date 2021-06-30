@@ -30,3 +30,8 @@
 1050px을 기준으로 잡고 그 아래의 화면 너비는 모바일용으로 보일수 있게 media 쿼리로 추가 수정하였다.
 
 이 후 다른 컴퓨터로도 확인해보았는데 font나 각 px위치들은 항상 맞지 않아 몇가지 추가수정을 진행하였다. pixel ratio에 대한 공부도 해야할 것 같다..
+
+
+## 필요 공부사항
+
+[Device Pixel Density](https://webclub.tistory.com/629)
