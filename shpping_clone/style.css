@@ -1,32 +1,13 @@
+
 @font-face {
   font-family: AppleSDGothic;
-  src: url(./fonts/AppleSDGothicNeoL.ttf) format('ttf');
-  font-weight: 300;
-}
-@font-face {
-  font-family: AppleSDGothic;
-  src: url(./fonts/AppleSDGothicNeoM.ttf) format('ttf');
-  font-weight: 400;
-}
-@font-face {
-  font-family: AppleSDGothic;
-  src: url(./fonts/AppleSDGothicNeoH.ttf) format('ttf');
+  src: url(./font/AppleSDGothicNeoM.ttf) format('truetype');
   font-weight: 600;
-}
-@font-face {
-  font-family: AppleSDGothic;
-  src: url(./fonts/AppleSDGothicNeoB.ttf) format('ttf');
-  font-weight: 700;
-}
-@font-face {
-  font-family: AppleSDGothic;
-  src: url(./fonts/AppleSDGothicNeoEB.ttf) format('ttf');
-  font-weight: 800;
 }
 
 html,
 body {
-  font-family: AppleSDGothic;
+  font-family: 'AppleSDGothic';
   overflow: visible;
   position: relative;
   margin: 0;
@@ -111,10 +92,10 @@ header .top .deliver {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-15px);
+    transform: translateY(-16px);
   }
   100% {
-    transform: translateY(-15px);
+    transform: translateY(-16px);
   }
 }
 
@@ -149,7 +130,7 @@ header .top .members li:before {
   content: '|';
   margin: 0 11px;
   color: #ddd;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 header .top .members li:first-child:before {
@@ -531,7 +512,7 @@ nav.goods .nav-search .search-input {
   font-weight: 700;
 }
 /* footer */
-footer {
+footer .pc{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -581,7 +562,9 @@ footer .left .line .contact div:last-child {
 footer .right .about {
   color: #333;
   justify-content: flex-start;
+  margin-top: 15px;
   font-size: 15px;
+
 }
 
 footer .right .about li {
@@ -590,10 +573,11 @@ footer .right .about li {
 }
 
 footer .right pre {
+  font-family: 'AppleSDGothic';
+  font-size: 11px;
   color: #999;
   margin: 20px 0 0px;
   line-height: 20px;
-  word-spacing: -5px;
 }
 
 footer .right pre span {
