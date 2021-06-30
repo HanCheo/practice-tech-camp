@@ -1,26 +1,26 @@
 @font-face {
   font-family: AppleSDGothic;
-  src: url(./fonts/NaumGothicL.ttf) format('ttf');
+  src: url(./fonts/AppleSDGothicNeoL.ttf) format('ttf');
   font-weight: 300;
 }
 @font-face {
   font-family: AppleSDGothic;
-  src: url(./fonts/NaumGothicM.ttf) format('ttf');
+  src: url(./fonts/AppleSDGothicNeoM.ttf) format('ttf');
   font-weight: 400;
 }
 @font-face {
   font-family: AppleSDGothic;
-  src: url(./fonts/NaumGothicH.ttf) format('ttf');
+  src: url(./fonts/AppleSDGothicNeoH.ttf) format('ttf');
   font-weight: 600;
 }
 @font-face {
   font-family: AppleSDGothic;
-  src: url(./fonts/NaumGothicB.ttf) format('ttf');
+  src: url(./fonts/AppleSDGothicNeoB.ttf) format('ttf');
   font-weight: 700;
 }
 @font-face {
   font-family: AppleSDGothic;
-  src: url(./fonts/NaumGothicEB.ttf) format('ttf');
+  src: url(./fonts/AppleSDGothicNeoEB.ttf) format('ttf');
   font-weight: 800;
 }
 
@@ -149,7 +149,7 @@ header .top .members li:before {
   content: '|';
   margin: 0 11px;
   color: #ddd;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 header .top .members li:first-child:before {
