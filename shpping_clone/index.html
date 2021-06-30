@@ -20,7 +20,8 @@
           </a>
         </div>
       </div>
-      <div class="top w-1050">
+      <!-- pc헤더 -->
+      <div class="top w-1050 pc">
         <a href="#" class="deliver">
           <div class="list list1">
             수도권・충청&nbsp;
@@ -31,15 +32,43 @@
             <span>택배배송 〉</span>
           </div>
         </a>
-        <img class="logo" src="./images/logo.jpg" alt="logo" />
+        <img class="logo" src="./images/logo.png" alt="logo" />
         <ul class="members">
           <li><a href="#">회원가입</a></li>
           <li><a href="#">로그인</a></li>
           <li><a href="#">고객센터</a></li>
         </ul>
       </div>
+      <!-- mobile 헤더 -->
+      <div class="mobile">
+        <div class="top">
+          <div></div>
+          <img class="logo" src="./images/logo.png" alt="logo" />
+          <div class="icons">
+            <img src="./images/ico_delivery_setting.svg" alt="delivery" />
+            <img src="./images/ico_cart.svg" alt="ico_cart" />
+          </div>
+        </div>
+      </div>
+      <div class="mobile">
+        <ul class="goods">
+          <li class="on">배민추천</li>
+          <li>신상품</li>
+          <li>베스트</li>
+          <li>알뜰쇼핑</li>
+          <li>특가혜택</li>
+        </ul>
+      </div>
+      <div class="mobile">
+        <nav class="bottom-nav">
+          <div class="home">홈</div>
+          <div class="cate">카테고리</div>
+          <div class="search">검색</div>
+          <div class="myinfo">마이컬리</div>
+        </nav>
+      </div>
     </header>
-    <div class="sticky">
+    <div class="sticky pc">
       <nav class="goods w-1050">
         <ul>
           <li>
@@ -155,11 +184,13 @@
         <div class="section-title right-arrow">컬리의 레시피</div>
 
         <div id="recipe" class="item-grid items-3 w-1050"></div>
-        <div class="section-title">인스타그램 고객 후기</div>
-        <div id="instargram" class="item-grid items-6 w-1050"></div>
-        <div class="subtitle">
-          더 많은 고객 후기가 궁금하다면?
-          <div class="instar">@market_graaaaaaaam</div>
+        <div class="pc">
+          <div class="section-title">인스타그램 고객 후기</div>
+          <div id="instargram" class="item-grid items-6 w-1050"></div>
+          <div class="subtitle">
+            더 많은 고객 후기가 궁금하다면?
+            <div class="instar">@market_graaaaaaaam</div>
+          </div>
         </div>
         <div class="banner">
           <img src="./images/banner/2.webp" alt="배너" />
@@ -167,41 +198,42 @@
       </section>
     </div>
     <footer class="w-1050">
-      <div class="left">
-        <div class="line">고객행복센터</div>
-        <div class="line">
-          <div class="call">1644-1107</div>
-          <div class="contact">
-            <div>365고객센터</div>
-            <div>오전 7시 - 오후 7시</div>
+      <div class="pc">
+        <div class="left">
+          <div class="line">고객행복센터</div>
+          <div class="line">
+            <div class="call">1644-1107</div>
+            <div class="contact">
+              <div>365고객센터</div>
+              <div>오전 7시 - 오후 7시</div>
+            </div>
+          </div>
+          <div class="line">
+            <div class="box">카카오톡 문의</div>
+            <div class="contact">
+              <div>365고객센터</div>
+              <div>오전 7시 - 오후 7시</div>
+            </div>
+          </div>
+          <div class="line">
+            <div class="box">1:1문의</div>
+            <div class="contact">
+              <div>24시간 접수 가능</div>
+              <div>고객센터 운영시간에 순차적으로 답변해드리겠습니다.</div>
+            </div>
           </div>
         </div>
-        <div class="line">
-          <div class="box">카카오톡 문의</div>
-          <div class="contact">
-            <div>365고객센터</div>
-            <div>오전 7시 - 오후 7시</div>
-          </div>
-        </div>
-        <div class="line">
-          <div class="box">1:1문의</div>
-          <div class="contact">
-            <div>24시간 접수 가능</div>
-            <div>고객센터 운영시간에 순차적으로 답변해드리겠습니다.</div>
-          </div>
-        </div>
-      </div>
-      <div class="right">
-        <ul class="about">
-          <li>소개</li>
-          <li>소개영상</li>
-          <li>인재채용</li>
-          <li>이용약관</li>
-          <li>개인정보처리방침</li>
-          <li>이용안내</li>
-        </ul>
-        <div>
-          <pre>
+        <div class="right">
+          <ul class="about">
+            <li>소개</li>
+            <li>소개영상</li>
+            <li>인재채용</li>
+            <li>이용약관</li>
+            <li>개인정보처리방침</li>
+            <li>이용안내</li>
+          </ul>
+          <div>
+            <pre>
 법인명 (상호) : 주식회사 | 사업자등록번호 : 000-00-00000 <span>사업자정보 확인</span>
 통신판매업 : 제 0000-XXXX-00000 호 | 개인정보보호책임자 : 이원준
 주소 : XX특별시 XX구 XX로 000-00 | 대표이사 : XXX
@@ -210,55 +242,128 @@
 팩스 : xxx-xxxx-xxxx | 이메일 : <span>help@xxx.com</span>
 
 © xxxx CORP. ALL RIGHTS RESERVED
-          </pre>
-          <ul class="list_sns">
-            <li>
-              <a href="#">
-                <img src="./images/ico_instagram.webp" alt="인스타그램 바로가기" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="./images/ico_fb.webp" alt="페이스북 바로가기" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="./images/ico_blog.webp" alt="네이버블로그 바로가기" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="./images/ico_naverpost.webp" alt="유튜브 바로가기" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="./images/ico_youtube.webp" alt="유튜브 바로가기" />
-              </a>
-            </li>
-          </ul>
+            </pre>
+            <ul class="list_sns">
+              <li>
+                <a href="#">
+                  <img src="./images/ico_instagram.webp" alt="인스타그램 바로가기" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/ico_fb.webp" alt="페이스북 바로가기" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/ico_blog.webp" alt="네이버블로그 바로가기" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/ico_naverpost.webp" alt="유튜브 바로가기" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/ico_youtube.webp" alt="유튜브 바로가기" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer_link">
+          <p>
+            [인증범위]마켓배민 쇼핑몰 서비스 개발 ・ 운영
+            <br />
+            [유효기간]2019.04.01 ~ 2022.03.31
+          </p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <p>
+            개인정보보호 우수 웹사이트
+            <br />
+            개인정보처리시스템 인증 (ePRIVACY PLUS)
+          </p>
+        </div>
+        <div class="footer_link">
+          <p>
+            고객님의 안전거래를 위해 현금 등으로 결제 시 저희 쇼핑몰에서 가입한
+            <br />
+            토스 페이먼츠 구매안전(에스크로) 서비스를 이용하실 수 있습니다.
+          </p>
         </div>
       </div>
-      <div class="footer_link">
-        <p>
-          [인증범위]마켓배민 쇼핑몰 서비스 개발 ・ 운영
-          <br />
-          [유효기간]2019.04.01 ~ 2022.03.31
-        </p>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <p>
-          개인정보보호 우수 웹사이트
-          <br />
-          개인정보처리시스템 인증 (ePRIVACY PLUS)
-        </p>
-      </div>
-      <div class="footer_link">
-        <p>
-          고객님의 안전거래를 위해 현금 등으로 결제 시 저희 쇼핑몰에서 가입한
-          <br />
-          토스 페이먼츠 구매안전(에스크로) 서비스를 이용하실 수 있습니다.
-        </p>
+      <div class="mobile">
+        <ul class="about">
+          <li>배민소개</li>
+          <li>이용안내</li>
+          <li>배송안내</li>
+          <li>자주하는 질문</li>
+          <li>공지사항</li>
+          <li>인재채용</li>
+          <li>이용약관</li>
+          <li>개인정보처리방침</li>
+        </ul>
+        <ul class="list_sns">
+          <li>
+            <a href="#">
+              <img src="./images/ico_instagram.webp" alt="인스타그램 바로가기" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/ico_fb.webp" alt="페이스북 바로가기" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/ico_blog.webp" alt="네이버블로그 바로가기" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/ico_naverpost.webp" alt="유튜브 바로가기" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/ico_youtube.webp" alt="유튜브 바로가기" />
+            </a>
+          </li>
+        </ul>
+        <div class="message">
+          <div>
+            <pre>
+<b>고객행복센터</b>
+<span class='callnum'>1644-1107</span>
+365고객센터 | 오전 7시 ~ 오후 7시
+카카오톡 <span>@마켓배민</span> 친구 추가하고 소식과 혜택을 받아보세요.
+
+
+주식회사 XX | 대표이사 : XXX
+개인정보보호책임자 : 이원준
+사업자등록번호 : 000-00-00000 <span>사업자정보 확인</span>
+통신판매업 : 제 0000-XXXX-00000 호
+주소 : XX특별시 XX구 XX로 000-00
+입점문의 : <span>입점문의하기</span>
+제휴문의 : <span>xxxx@xxx.com</span>
+채용문의 : <span>xxxx@xxx.com</span>
+팩스 : xxx-xxxx-xxxx | 이메일 : <span>help@xxx.com</span>
+            </pre>
+          </div>
+          <div class="footer_link">
+            <p>
+              [인증범위]마켓배민 쇼핑몰 서비스 개발 ・ 운영
+              <br />
+              [유효기간]2019.04.01 ~ 2022.03.31
+            </p>
+            <p>
+              개인정보보호 우수 웹사이트
+              <br />
+              개인정보처리시스템 인증 (ePRIVACY PLUS)
+            </p>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
