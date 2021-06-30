@@ -92,15 +92,17 @@ header .top .deliver {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-16px);
+    transform: translateY(-1.4em);
   }
   100% {
-    transform: translateY(-16px);
+    transform: translateY(-1.4em);
   }
 }
 
 header .top .deliver .list {
   display: flex;
+  margin-bottom: 3px;
+  margin-top: -2px;
   position: relative;
   justify-content: space-between;
   animation: list 2s infinite;
