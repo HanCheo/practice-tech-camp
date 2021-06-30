@@ -7,6 +7,9 @@
 <br>
 
 ## 미리보기 
+
+채택한 쇼핑몰 : [마켓컬리](https://www.kurly.com/m2/index.php)
+
 ### PC
 ![Jun-29-2021 18-52-31](https://user-images.githubusercontent.com/38929712/123777572-4d51b480-d90b-11eb-90d6-f17704383b53.gif)
 
