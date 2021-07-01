@@ -681,14 +681,26 @@ footer .footer_link {
     align-items: flex-end;
     display: flex;
     padding: 0 0 4px 0;
-    background-color: gray;
+    background-color: #fafafa;
     width: 100%;
     font-size: 12px;
     justify-content: space-around;
     bottom: 0;
   }
+  header .bottom-nav div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
   header .bottom-nav .home {
     color: #2ac1bc;
+  }
+  header .bottom-nav .home .svg-icon {
+    fill: #2ac1bc;
+  }
+  header .bottom-nav .svg-icon {
+    height: 24px;
   }
   .contents section {
     padding: 16px 0 0 16px;
